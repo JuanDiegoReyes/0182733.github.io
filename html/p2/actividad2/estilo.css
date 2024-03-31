@@ -1,0 +1,19 @@
+fieldset {
+    color: darkcyan;
+    align-items: center;
+    text-shadow: black;
+    border-radius: 10px;
+}
+table{
+    color: brown;
+    align-items: center;
+}
+select{
+    shape-margin: 100px;
+    color: darkolivegreen;
+    border-radius: 10px;
+    width: 100px;
+}
+input{
+    color: darkslategrey;
+}

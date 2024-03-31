@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset ="utf-8">
+        <link rel="stylesheet" href="actividad2/estilo.css">
+        <title>Arreglos en PHP</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form method="post" action="actividad2/form_2.php">
+            <fieldset>
+                <legend>Información general</legend>
+                <table>
+                    <tr>
+                        <td>Nombre:<br><input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario"></td>
+                        <td>Apellido Paterno: <br><input type="text" name="ap" id="ap" placeholder="Apellido Paterno"></td>
+                        <td>Apellido Materno: <br><input type="text" name="am" id="am" placeholder="Apellido Materno"></td>
+                    </tr>
+                    <tr>
+                        <td>Nombre de usuario <br><input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario"></td>
+                        <td> contraseña: <br><input type="password" name="contraseña" id="contraseña" placeholder="Contraseña"></td>
+                        <td>Fecha de nacimiento <br><input type="date" name="fechan" id="fechan"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de facturación</legend>
+                <table>
+                    <tr>
+                        <td>
+                            País<br>
+                            <select size="3" name="pais" id="pais">
+                                <option value="México">México</option>
+                                <option value="E.U.A">E.U.A</option>
+                                <option value="Canadá">Canadá</option>
+                                <option value="España">España</option>
+                                <option value="Rusia">Rusia</option>
+                                <option value="Japón">Japón</option>
+                            </select>
+                        </td>
+                        <td>
+                            Ciudad<br>
+                            <select size="3" name="ciudad" id="ciudad">
+                                <option value="San Luis Potosí">San Luis Potosí</option>
+                                <option value="Matehuala">Matehuala</option>
+                                <option value="C.d Valles">C.d Valles</option>
+                                <option value="Arbolitos">Arbolitos</option>
+                                <option value="Zihuatanejo">Zihuatanejo</option>
+                                <option value="Acapulco">Acapulco</option>
+                            </select>
+                        </td>
+                        <td colspan="2">Calle <br><input type="text" name="calle" id="calle" placeholder="Calle"></td>
+                    </tr>
+                    <tr>
+                        <td>Número de casa <br><input type="number" name="cs" id="cs" placeholder="Número de casa"></td>
+                        <td>colonia<br><input type="text" name="colonia" id="colonia" placeholder="Colonia"></td>
+                        <td colspan="2">E-mail<br><input type="text" name="e-mail" id="e-mail" placeholder="E-mail"></td>
+                    </tr>
+                    <tr>
+                        <td>R.F.C<br><input type="text" name="rfc" id="rfc" placeholder="R.F.C"></td>
+                        <td>C.P.<br><input type="number"name="cp" id="cp" placeholder="C.P."></td>
+                        <td><input type="submit" name="envio" id="envio" value="Enviar"></td>
+                        <td><input type="reset" name="reset" value="Restablecer"></td>
+                    </tr>
+
+                </table>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
